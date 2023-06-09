@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/navAdminMensajes"
+        android:title="Mensajes"
+        android:icon="@drawable/ic_mensaje">
+    </item>
+
+    <!--ADMINISTRACION DE USUARIOS-->
+    <item android:title="Administrar Usuarios">
+        <menu>
+            <!--GESTOR COMUNITARIO-->
+            <item
+                android:id="@+id/navAdminGestorComunitario"
+                android:title="Gestor Comunitario">
+            </item>
+            <!--TECNICO ESPECIALISTA-->
+            <item
+                android:id="@+id/navAdminTecnicoEspecialista"
+                android:title="Técnico Especilista">
+            </item>
+            <!--ADMINISTRADOR
+            <item
+                android:id="@+id/navAdminUsuarioAdministrado"
+                android:title="Administrador">
+            </item> -->
+        </menu>
+    </item>
+
+    <!--ADMINISTRACION DE EVENTOS-->
+    <item android:title="Administrar de amenazas">
+        <menu>
+            <item
+                android:id="@+id/navAdminEventos"
+                android:title="Amenazas"
+                android:icon="@drawable/ic_evento">
+            </item>
+        </menu>
+
+    </item>
+    <!--INFORMACION-->
+    <item android:title="Información">
+        <menu>
+            <item
+                android:id="@+id/navAdminInformacion"
+                android:title="Información"
+                android:icon="@drawable/ic_info">
+            </item>
+            <item
+                android:id="@+id/navAdminDesarrollador"
+                android:title="Desarrollador"
+                android:icon="@drawable/ic_desarrollador">
+
+            </item>
+        </menu>
+    </item>
+
+    <!--CERRAR SESION-->
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/navAdminCerrarSesion"
+                android:title="Cerrar Sesión"
+                android:icon="@drawable/ic_salir">
+
+            </item>
+        </menu>
+
+    </item>
+
+
+</menu>

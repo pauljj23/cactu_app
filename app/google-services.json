@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "412909693591",
+    "firebase_url": "https://cactuapp-58637-default-rtdb.firebaseio.com",
+    "project_id": "cactuapp-58637",
+    "storage_bucket": "cactuapp-58637.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412909693591:android:eb3564f04a04e1daff97d2",
+        "android_client_info": {
+          "package_name": "com.pauljordan.cactuapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412909693591-66jr048a8kt8721o7adt2p2kompjb1sp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pauljordan.cactuapp",
+            "certificate_hash": "d33067c0692f1b5d9fd68ddf54a02a54c93dcc0e"
+          }
+        },
+        {
+          "client_id": "412909693591-47bm1lt0f84hgd9rpba20umtqk3v4b7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNhj390uMFnlIa3yY1DpT-nva-XWzxNY0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412909693591-47bm1lt0f84hgd9rpba20umtqk3v4b7q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

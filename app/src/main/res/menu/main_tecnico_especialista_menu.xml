@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/navTecnicoMensajes"
+        android:title="Mensajes"
+        android:icon="@drawable/ic_mensaje">
+    </item>
+
+    <!--ADMINISTRACION DE EVENTOS-->
+    <item android:title="Contactos">
+        <menu>
+            <item
+                android:id="@+id/navTecnicoContactos"
+                android:title="Contactos"
+                android:icon="@drawable/ic_contact_phone">
+            </item>
+        </menu>
+    </item>
+
+    <!--INFORMACION-->
+    <item android:title="Información">
+        <menu>
+            <item
+                android:id="@+id/navReportesRecibidos"
+                android:title="Reportes Recibidos"
+                android:icon="@drawable/ic_reporte">
+            </item>
+            <item
+                android:id="@+id/navTecnicoInformacion"
+                android:title="Información"
+                android:icon="@drawable/ic_info">
+            </item>
+            <item
+                android:id="@+id/navTecnicoDesarrollador"
+                android:title="Desarrollador"
+                android:icon="@drawable/ic_desarrollador">
+            </item>
+        </menu>
+    </item>
+
+
+    <!--CERRAR SESION-->
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/navTecnicoCerrarSesion"
+                android:title="Cerrar Sesión"
+                android:icon="@drawable/ic_salir">
+            </item>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:padding="25dp"
+    android:orientation="vertical">
+
+    <!--ImageView Logo Cactu-->
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/cactulogo"
+        android:layout_gravity="center"
+        tools:ignore="ContentDescription"/>
+
+    <!--TextView Mensaje de Bienvenida-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/abel"
+        android:text="Bienvenido a CactuApp"
+        android:textSize="39sp"
+        android:textStyle="bold" />
+
+    <!--TextView Mensaje Inicio de Sesión-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar sesión para continuar"
+        android:textSize="24sp"
+        android:fontFamily="@font/abel"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="14dp"
+        android:orientation="vertical">
+
+        <!--TextInput Email-->
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:hint="Correo Electrónico"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/loginCorreoTextField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/abel"
+                android:inputType="textEmailAddress"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--TextInput Password-->
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:hint="Contraseña"
+            app:passwordToggleEnabled="true"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/loginContrasenaTextField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/abel"
+                android:inputType="textPassword"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--TextView Clickable Olvidaste tu contraseña-->
+        <TextView
+            android:id="@+id/olvideContrasenaLabel"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/abel"
+            android:text="Olvidaste tu contraseña"
+            android:textAlignment="textEnd"
+            android:textColor="#878383"
+            android:textSize="20sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/iniciarSesionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iniciar Sesión"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="70dp" />
+
+        <TextView
+            android:id="@+id/gotoRegistroLabel"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/abel"
+            android:text="Eres nuevo? Registrate!"
+            android:textAlignment="center"
+            android:textColor="#878383"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

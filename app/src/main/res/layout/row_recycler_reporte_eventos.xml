@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp">
+    <!--LABEL NOMBRE USUARIO-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usuario : "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/abel"/>
+        <TextView
+            android:id="@+id/eventoReportadoNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19sp"
+            android:fontFamily="@font/abel"/>
+    </LinearLayout>
+
+    <!--LABEL TIPO DE EVENTO_REPORTE-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Evento : "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/abel"/>
+        <TextView
+            android:id="@+id/eventoReportadoEvento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19sp"
+            android:fontFamily="@font/abel"/>
+    </LinearLayout>
+
+    <!--LABEL FECHA-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha : "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/abel"/>
+        <TextView
+            android:id="@+id/eventoReportadoFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="@font/abel"/>
+    </LinearLayout>
+    <!--LABEL PARROQUIA-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parroquia : "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/abel"/>
+        <TextView
+            android:id="@+id/eventoReportadoParroquia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19sp"
+            android:fontFamily="@font/abel"/>
+    </LinearLayout>
+
+    <!--LABEL COMUNIDAD-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comunidad : "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/abel"/>
+        <TextView
+            android:id="@+id/eventoReportadoComunidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19sp"
+            android:fontFamily="@font/abel"/>
+    </LinearLayout>
+
+</LinearLayout>

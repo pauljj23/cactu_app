@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".RegisterActivity">
+    <!--Logo y TextView Registro de eventos-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!--Logo Cactu-->
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="start"
+            android:src="@drawable/cactulogo"
+            tools:ignore="ContentDescription" />
+        <!--Titulo del Activity Regsitro de eventos-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/abel"
+            android:gravity="center"
+            android:text="REGISTRO DE EVENTOS"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!--Linear layout TextView Nombre del Gestor Comunitario-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+        <!--Label Nombre-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abel"
+            android:text="Nombre :"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <!--TextView Nombre-->
+        <TextView
+            android:id="@+id/reporteNombre"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/abel"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <!--Linear layout TextView Correo del Gestor Comunitario-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+        <!--Label Nombre-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abel"
+            android:text="Correo :"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <!--TextView Nombre-->
+        <TextView
+            android:id="@+id/reporteCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/abel"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!--Linear layout Rol del UsuarioModel y Fecha actual-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+        <!--Label Rol-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abel"
+            android:text="Rol :"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <!--TextView Rol-->
+        <TextView
+            android:id="@+id/reporteRol"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/abel"
+            android:textSize="16sp" />
+        <!--Label Fecha-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abel"
+            android:text="Fecha :"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <!--TextView Fecha-->
+        <TextView
+            android:id="@+id/reporteFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/abel"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <!--LINEAR LAYOUT PARROQUIA-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+        <!--TextView Parroquia-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abel"
+            android:text="Parroquia :"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/reporteParroquia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/abel"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+    <!--LINEAR LAYOUT COMUNIDAD-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+        <!--TextView Comunidad-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abel"
+            android:text="Comunidad :"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/reporteComunidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/abel"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <!--LINEAR LAYOUT TELEFONO-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+        <!--TextView Comunidad-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abel"
+            android:text="Telefono :"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/reporteTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/abel"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <!--LINEAR LAYOUT TIPO DE EVENTO-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+        <!--TextView Comunidad-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abel"
+            android:text="Tipo de Evento :"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/reporteEvento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/abel"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButtonEvento"
+        android:layout_width="372dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <!--Text Input Descripcion del Evento-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Descripción del evento"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/reporteDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:fontFamily="@font/abel"
+            android:inputType="text"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnEnviarReporte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar Reporte"
+        android:fontFamily="@font/abel"
+        android:textStyle="bold"/>
+
+</LinearLayout>

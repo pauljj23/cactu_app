@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:padding="25dp"
+    android:orientation="vertical">
+
+    <!--ImageView Logo Cactu-->
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/cactulogo"
+        android:layout_gravity="center"
+        tools:ignore="ContentDescription"/>
+
+    <!--TextView Mensaje de Bienvenida-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/abel"
+        android:text="Bienvenido a CactuApp"
+        android:textSize="39sp"
+        android:textStyle="bold" />
+
+    <!--TextView Mensaje Seleccione su Rol de usuario-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccione su Rol de Usuario"
+        android:textSize="24sp"
+        android:fontFamily="@font/abel"/>
+
+    <!--TextView Rol de UsuarioModel Gestor Comunitario-->
+    <TextView
+        android:id="@+id/gestorComunitarioAuthOptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:layout_gravity="center"
+        android:text="Gestor Comunitario"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/light"
+
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/abel"/>
+
+    <!--TextView Rol de UsuarioModel Tecnico Especialista-->
+    <TextView
+        android:id="@+id/tecnicoEspecilistaAuthOptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:layout_gravity="center"
+        android:text="Ténico Especialista"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/light"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/abel"/>
+
+    <!--TextView Rol de UsuarioModel Administrador-->
+    <TextView
+        android:id="@+id/administradorAuthOptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:layout_gravity="center"
+        android:text="Administrador"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/light"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/abel"/>
+
+
+</LinearLayout>

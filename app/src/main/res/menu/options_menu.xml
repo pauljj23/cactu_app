@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/guardar"
+        android:title="Save Done"
+        android:icon="@drawable/ic_guardar"
+        app:showAsAction="always">
+    </item>
+    <!--Por motivos de seguridad, algunas acciones, como borrar una cuenta,
+     configurar una dirección de correo electrónico principal y cambiar una
+     contraseña, no pueden realizarse si el usuario no accedió a su cuenta
+     recientemente. Si realizas una de estas acciones y el usuario accedió
+     hace mucho tiempo, la acción falla y genera una
+     FirebaseAuthRecentLoginRequiredException.
+     Cuando esto sucede, debes volver a autenticar al usuario.
+     Para ello, obtén credenciales de acceso nuevas del usuario
+     y pásalas a reauthenticate.-->
+<!-- //
+    <item android:id="@+id/borrar"
+        android:title="Delete Done"
+        android:icon="@drawable/ic_borrar"
+        app:showAsAction="always"
+        >
+    </item>
+    -->
+
+</menu>
