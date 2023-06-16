@@ -76,7 +76,7 @@ public class LoginActivity extends AppCompatActivity {
         });
 
         //cuando el UsuarioModel presiona la etiqueta Eres nuevo, Registrate!
-        gotoRegistro.setOnClickListener(new View.OnClickListener() {
+        /*gotoRegistro.setOnClickListener(new View.OnClickListener() {
             @Override
 
             public void onClick(View v) {
@@ -85,7 +85,7 @@ public class LoginActivity extends AppCompatActivity {
                 finish();
 
             }
-        });//fin del setOnClickListener
+        });*///fin del setOnClickListener
 
 
     }//fin del onCreate
